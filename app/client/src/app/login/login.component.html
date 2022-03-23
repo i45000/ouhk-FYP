@@ -6,35 +6,35 @@
       <!-- form card login -->
       <div class="card rounded-0">
         <div class="card-header">
-          <h3 class="mb-0">Login</h3>
+          <h3 class="mb-0">Login✔️</h3>
         </div>
         <div class="card-body">
           <form #loginForm="ngForm" class="form">
             <div class="form-group">
-              <label for="role">Role</label>
+              <label for="role">Choose your Role from the list:</label>
               <select name="role" class="form-control rounded-1" required placeholder="Select a user role"
                 [(ngModel)]="role" (ngModelChange)="roleChanged()">
-                <option value="admin">Admin</option>
-                <option value="doctor">Doctor</option>
-                <option value="patient">Patient</option>
+                <option value="admin">Admin🛠️</option>
+                <option value="doctor">Doctor👨‍🔬</option>
+                <option value="patient">Patient😷</option>
               </select>
             </div>
             <div class="form-group mt-3" *ngIf="showHospList">
-              <label for="hospitalName">Hospital</label>
+              <label for="hospitalName">Hospital🏥</label>
               <select name="hospital" class="form-control rounded-1" required placeholder="Select a hospital you belong"
                 [(ngModel)]="hospitalId">
-                <option value="1">Hospital 1</option>
-                <option value="2">Hospital 2</option>
-                <option value="3">Hospital 3</option>
+                <option value="1">Hospital 1🏨</option>
+                <option value="2">Hospital 2🏩</option>
+                <option value="3">Hospital 3💒</option>
               </select>
             </div>
             <div class="form-group mt-3">
-              <label for="name">Username</label>
+              <label for="name">Username🔑</label>
               <input type="text" name="username" class="form-control rounded-1" required
                 [(ngModel)]="username">
             </div>
             <div class="form-group mt-3">
-              <label for="password">Password</label>
+              <label for="password">Password🔒</label>
               <input type="password" name="password" class="form-control rounded-1" required
                 [(ngModel)]="pwd">
             </div>
