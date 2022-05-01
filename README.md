@@ -1,7 +1,16 @@
+# :star: Features
+1. Friendly UI
+2. Hight security for data
+3. Using blockchain technology
+4. 
+5. 
+
+
 # :Run the following command in terminal firstly and copy the bin file to your App directory
 ```
 curl -sSL https://bit.ly/2ysbOFE | bash -s -- 2.2.2 1.4.9
 ```
+## How To Deploy Hyperlegde Fabric?
 
 # :desktop_computer: Quick Start
 Install the dependencies
@@ -59,6 +68,7 @@ Doctor | HOSP2-DOC3 | password
 
 
 # :scroll: Reference
+```
 https://hyperledger-fabric.readthedocs.io/en/release-2.2/
 https://github.com/kshitijyelpale/blockchain-hyperledger-fabric-electronic-patient-records
-
+```
