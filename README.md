@@ -50,3 +50,12 @@ Doctor | HOSP1-DOC2 | password
 Doctor | HOSP2-DOC3 | password
 
 
+
+
+# :scroll: Reference
+https://hyperledger-fabric.readthedocs.io/en/release-2.2/
+https://github.com/kshitijyelpale/blockchain-hyperledger-fabric-electronic-patient-records
+
+
+
+
