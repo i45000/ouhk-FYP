@@ -1,17 +1,25 @@
+# :Run the following command in terminal firstly and copy the bin file to your App directory
+```
+curl -sSL https://bit.ly/2ysbOFE | bash -s -- 2.2.2 1.4.9
+```
+
 # :desktop_computer: Quick Start
 Install the dependencies
 ```
 npm install
 ```
+
 # :Docker:get permission
 ```
 sudo chmod 666 /var/run/docker.sock
 ```
+
 # :bring up the network by issuing the following command. 
 cd /home/i45000/fyp-block/ouhk-FYP/app/first-network
 ```
 ./network.sh down
 ```
+
 ./network.sh up createChannel
 # :the smart contract chaincode inside ’patient-asset-transfer’ and the wallet
 ```
@@ -50,12 +58,7 @@ Doctor | HOSP1-DOC2 | password
 Doctor | HOSP2-DOC3 | password
 
 
-
-
 # :scroll: Reference
 https://hyperledger-fabric.readthedocs.io/en/release-2.2/
 https://github.com/kshitijyelpale/blockchain-hyperledger-fabric-electronic-patient-records
-
-
-
 
