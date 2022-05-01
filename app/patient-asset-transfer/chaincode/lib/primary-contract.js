@@ -1,8 +1,4 @@
 /**
- * @author Varsha Kamath
- * @email varsha.kamath@stud.fra-uas.de
- * @create date 2021-01-23 21:50:38
- * @modify date 2021-01-30 19:52:41
  * @desc [Primary Smartcontract to initiate ledger with patient details]
  */
 /*
@@ -17,13 +13,13 @@ let initPatients = require('./initLedger.json');
 class PrimaryContract extends Contract {
 
     async initLedger(ctx) {
-        console.info('============= START : Initialize Ledger ===========');
+        console.info('XXXXXXX===== START : Initialize Ledger =====XXXXXXX');
         for (let i = 0; i < initPatients.length; i++) {
             initPatients[i].docType = 'patient';
             await ctx.stub.putState('PID' + i, Buffer.from(JSON.stringify(initPatients[i])));
             console.info('Added <--> ', initPatients[i]);
         }
-        console.info('============= END : Initialize Ledger ===========');
+        console.info('XXXXXXX===== END : Initialize Ledger =====XXXXXXX');
     }
 
     //Read patient details based on patientId

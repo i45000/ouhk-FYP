@@ -13,7 +13,6 @@ const walletPath = path.join(__dirname, 'wallet');
 
 
 /**
- * @author Jathin Sreenivas
  * @param  {string} doctorID
  * @return {networkObj} networkObj if all paramters are correct, the networkObj consists of contract, network, gateway
  * @return {string} response error if there is a error in the method
@@ -72,7 +71,6 @@ exports.connectToNetwork = async function(doctorID) {
 
 
 /**
- * @author Jathin Sreenivas
  * @param  {*} networkObj the object which is given when connectToNetwork is executed
  * @param  {boolean} isQuery true if retrieving from ledger, else false in the case of add a transaction to the ledger.
  * @param  {string} func must be the function name in the chaincode.
@@ -106,7 +104,6 @@ exports.invoke = async function(networkObj, isQuery, func, args= '') {
 };
 
 /**
- * @author Jathin Sreenivas
  * @param  {string} attributes JSON string in which userId, hospitalId and role must be present.
  * @description For patient attributes also contain the patient object
  * @description Creates a patient/doctor and adds to the wallet to the given hospitalId

@@ -75,7 +75,6 @@ exports.buildCCPHosp3 = () => {
 };
 
 /**
- * @author Jathin Sreenivas
  * @param  {*} Wallets
  * @param  {string} walletPath
  * @return {wallet} wallet
@@ -97,7 +96,6 @@ exports.buildWallet = async (Wallets, walletPath) => {
 };
 
 /**
- * @author Jathin Sreenivas
  * @param  {string} inputString
  * @return {string} jsonString
  * @description Formats the string to JSON

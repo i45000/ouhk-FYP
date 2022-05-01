@@ -1,8 +1,4 @@
 /**
- * @author Kshitij Yelpale
- * @email kshitij.yelpale@stud.fra-uas.de
- * @create date 2021-01-20 02:00:00
- * @modify date 2021-01-20 02:00:00
  * @desc Client library to connect redis key-value pair database
  */
 
@@ -16,11 +12,11 @@ module.exports = function(option) {
     // const client = redis.createClient('redis://localhost:6381');
 
   client.on('connect', () => {
-    console.log('Client connected to redis...');
+    console.log('Client connected to redis now ...');
   });
 
   client.on('ready', () => {
-    console.log('Client connected to redis and ready to use...');
+    console.log('Client connected to redis and ready to use now ...');
   });
 
   client.on('error', (err) => {
